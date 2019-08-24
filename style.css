@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: ariel;
+}
+
+#app {
+    background-color: #085c55;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.whole-page {
+    display: flex;
+    background-color: green;
+    
+}
+
+.corner {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 90px;
+    width: 70px;
+    border-radius: 60%;
+    border: 1px solid white;
+    display: block;
+    margin-left: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+.convo {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+#text {
+    margin-top:8px;
+}
+#final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.convo h2, span {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.convo span {
+    margin-top:6px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+
+.chat>span1 {
+    font-size: 12px;
+    color: grey;
+    margin-top: 26px;
+}
+.chat span {
+    background-color: #25d366;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 26px;
+    border-radius: 50%;
+    border: none;
+    margin-top:8px;
+}
