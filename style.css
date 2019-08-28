@@ -1,3 +1,9 @@
+:root{
+    --white:#ffffff;
+    --gray:#808080;
+    --green:#046645;
+    --light-green:#25d366;
+}
 body {
     padding: 0;
     margin: 0;
@@ -5,79 +11,110 @@ body {
 }
 
 #app {
-    background-color: #085c55;
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
-
+#major{
+    display: flex;
+    justify-content: space-between;
+}
+#title{
+    display: flex;
+}
+#symbols{
+    display: flex;
+    justify-content:space-between;
+}
+#search{
+    display: flex;
+}
+#search>i{
+    margin-right: 58px;
+}
+#menu{
+    display: flex;
+}
+#menu>i{
+    margin-right: 30px;
+}
+#title>h1,i{
+    margin-top:2px;
+    font-size:24px;
+}
+#second{
+    display: flex;
+}
+button{
+    color:var(--white);
+    background-color: transparent;
+    border: none;
+}
+#second>i{
+    flex-grow: 1;
+}
+#second button{
+    flex-grow: 4;
+}
 .whole-page {
     display: flex;
-    background-color:white;
-    
+    background-color: var(--white);
 }
-
 .corner {
     display: flex;
     flex-direction: row;
 }
-
 img {
     height: 90px;
     width: 70px;
     border-radius: 60%;
-    border: 1px solid white;
-    display: block;
+    border: none;
     margin-left: 10px;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
 
 ul>li {
-    list-style-type: none;
+    list-style-type: none;  
 }
-
 .convo {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid grey;
-}
-#text {
-    margin-top:8px;
 }
 #final{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid var(--gray);
+    width: 100%;
 }
-
 .convo h2, span {
     margin-left: 20px;
     margin-bottom: 0;
 }
 .convo span {
     margin-top:6px;
+    color:var(--gray);
 }
-
 .chat {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid grey;
+    align-items: center;
 }
-
-.chat>span1 {
+#circle {
     font-size: 12px;
-    color: grey;
+    color: var(--gray);
     margin-top: 26px;
 }
-.chat span {
-    background-color: #25d366;
+#shape{
+    background-color: var(--light-green);
     display: flex;
-    color: white;
+    color: var(--white);
     align-items: center;
     justify-content: center;
     height: 28px;

@@ -16,12 +16,12 @@ axios.get('https://tk-whatsapp.herokuapp.com/messages')
         <div id="final">
           <div class="convo">
             <h2>${messages.name}</h2>
-            <span id="text">${messages.firstLine}</span>
+            <span>${messages.firstLine}</span>
             <span>${messages.number}</span>
           </div>
           <div class="chat">
-            <span1>${messages.time}</span>
-            <span>${messages.numbUnread}</span>
+            <span id="circle">${messages.time}</span>
+            <span id="shape">${messages.numbUnread}</span>
           </div>
         </div>
       </div>
