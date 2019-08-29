@@ -15,7 +15,7 @@ axios.get('https://tk-whatsapp.herokuapp.com/messages')
         </div>
         <div id="final">
           <div class="convo">
-            <h2>${messages.name}</h2>
+            <h3>${messages.name}</h3>
             <span>${messages.firstLine}</span>
             <span>${messages.number}</span>
           </div>

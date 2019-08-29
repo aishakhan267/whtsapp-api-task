@@ -93,7 +93,7 @@ ul>li {
     border-bottom: 1px solid var(--gray);
     width: 100%;
 }
-.convo h2, span {
+.convo h3, span {
     margin-left: 20px;
     margin-bottom: 0;
 }
